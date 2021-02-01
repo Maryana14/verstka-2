@@ -1,0 +1,239 @@
+*{  
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    display: flex;
+    width: 1280px;
+}
+.left{
+    width: 640px;
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.logo{
+    padding: 25px;
+    width: 100px;
+}
+.right{
+    margin: 40px;
+}
+.header1{
+    font-size: 50px;
+}
+.text1{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.text{
+    opacity: 0.7;
+}
+.buttom{
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+.facebook-button{
+    display: flex;
+    width: 320px;
+    height: 50px;
+    background-color: rgb(10, 10, 49);
+    color: #ffffff;
+
+}
+
+.facebook{
+    height: 50px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Linkedin{
+    height: 50px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Linkedin-button{
+    width: 320px;
+    height: 50px;
+    background-color: rgb(73, 73, 202);
+    display: flex;
+    color: #ffffff;
+}
+ .icon{
+     width: 100px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .or{
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-top: 15px;
+     display: flex;
+     justify-content: center;
+ }
+.or1{
+    opacity: 0.3;
+    line-height: 5px;
+    margin: 0 10px;
+}
+.ortext{
+   opacity: 0.6;
+}
+
+.header2{
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.text2 {
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 20px 0px;
+    
+    
+}
+#Individual{
+    background-color: blue;
+}
+
+
+.text3{
+    width: 300px; 
+    height: 70px; 
+    border: 2px solid grey;
+    opacity: 0.2;
+    margin-top: 20px;
+    box-shadow: 0 0 5px 2px rgb(177, 174, 174);
+    padding: 10px;
+}
+.contacs{
+    display: flex;
+    margin-top: 15px;
+    font-size: 20px;
+    opacity: 0.7;
+    justify-content: space-between;
+    width: 655px;
+    height: 90px;
+    
+}
+
+ .email{
+    border: 1px solid lightgray;
+    border-left: 2px solid rgb(75, 75, 207);
+    width: 305px;
+    height: 50px;
+    padding-left: 15px;
+}
+.email-input{
+    width: 180px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.email-input:focus{
+    outline: none;
+
+}
+.email-label{
+    font-size: 15px;
+    
+}
+
+.phone{
+    border: 1px solid lightgray;
+    width: 305px;
+    height: 50px;
+    padding-left: 15px;
+
+    }
+
+.phone-input{
+    width: 180px;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+.phone-label:focus{
+    outline: none;
+}
+.phone-label{
+   font-size: 15px; 
+}
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.radio1{
+    display: flex;
+}
+.info:hover::after{
+    content: attr(data-info);
+    
+    z-index: 1;
+    cursor: pointer;
+    background-color: cadetblue;
+    border: 1px solid #8e61c9;
+}
+.info2:hover::after{
+    position: absolute;
+    left: 460px;
+    top: 420px;
+    }
+    .info1:hover::after{
+    position: absolute;
+    left: 570px;
+    top: 440px;
+    }
+
+    .info3:hover::after{
+    position: absolute;
+    left: 400px;
+    top: 440px;
+    }
+
+    .info4:hover::after{
+    position: absolute;
+    left: 730px;
+    top: 440px;
+    }
+    .creat{
+        width: 200px;
+        height: 40px;
+        background-color: #00afdb;
+        color: #ffffff;
+        font-weight: bold;
+        border-radius: 14px;
+        padding-top: 5px;
+    }
+.creat:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.info1:hover{
+    cursor: pointer;
+    border-bottom: lawngreen;
+}
+.checkbox{
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgb(87, 87, 87);
+}
+.submitt{
+    margin-top: 15px;
+}
